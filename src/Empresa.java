@@ -1,10 +1,11 @@
 
 public class Empresa {
 	
-	public String nome;
-	public String cnpj;
-	public String cidade;
-	public String uf;
+	private String nome;
+	private String cnpj;
+	private String cidade;
+	private String uf;
+	
 	
 	
 	
@@ -16,7 +17,6 @@ public class Empresa {
 	
 	
 	public Empresa(String nome, String cnpj, String cidade, String uf) {
-		super();
 		this.nome = nome;
 		this.cnpj = cnpj;
 		this.cidade = cidade;
